@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Alegreya', serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+ .clear{
+    clear: both;
+}
+.contaniner{
+    width: 70%;
+    margin: auto;
+}
+ .header .overlay{
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.header{
+    background-image:url(../img/shutterstock_277750193.jpg) ;
+    background-size: cover;/* to showe all the pictuer*/
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+.header .navbar{
+    /* overflow: hidden; */
+    padding-top:30px ;
+}
+.header .navbar .logo{
+float: left;
+width: 40%;
+}
+.header .navbar .logo img{
+    width: 25%;
+}
+.header .navbar .nav{
+    float: left;
+    width: 60%;
+    padding-top: 20px;
+
+}
+.header .navbar .nav .list{
+    display: inline-block;
+}
+.header .navbar .nav .list a {
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.headercontent{
+    /* background-color: red; */
+    margin-top: 90px;
+    color: white;
+}
+.headercontent h1{
+    font-size: 75px;
+ font-weight: 400;
+ margin-bottom: 20px;
+}
+.headercontent img{
+    width: 20%;
+}
+.headercontent p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.headercontent button{
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+}
+.headercontent .s{
+    background-color:#c1ab84 ;
+    color: white;
+    margin-right: 10px;
+}
+.s:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+}
+/* about section */
+.about .about-img{
+float: left;
+width: 40%;
+}
+.about .about-img img{
+    width: 100%;
+}
+.about .about-content{
+float: left;
+width: 60%;
+text-align: center;
+margin-top: 100px;
+}
+.about .about-content h2{
+    font-size: 30px;
+    font-weight: 400px;
+    color:#253048;
+    margin-bottom: 20px;
+}
+.about .about-content h3{
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84;
+    margin-bottom: 20px;
+}
+.about .about-content p{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.about .about-content ul li{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+.about .about-content ul li i{
+    background-color: rgb(193, 171, 132);
+    color: white;
+    border-radius: 50%;
+    width:50px ;
+    height:50px ;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.about .about-content ul li span{
+    margin-left: 20px;
+}
+.reviewers , .location {
+    background-color: #f8f8f8;
+    padding-top: 70px;
+    padding-bottom:40px ;
+}
+.reviewers .reviewers-desc,.location .location-desc{
+    float: left;
+    width: 60%;
+}
+.reviewers-desc h2 ,.location-desc h2{
+    color:rgb(37, 48, 72) ;
+    font-size: 36px;
+    font-weight: 400px;
+    margin-top: 10px;
+}
+.reviewers-desc h3{
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84;
+    margin-bottom: 10px;
+    font-weight: 400px;
+}
+.reviewers-desc i,.location-desc i {
+    margin-bottom: 20px;
+    margin-right:20px ;
+    color: #c1ab84;
+}
+.reviewers-desc p ,.location-desc p{
+    width: 88%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.reviewers .reviewers-img ,.location .location-img{
+    float:left;
+    width: 40%;
+}
+.reviewers img ,.location img{
+    width:100% ;
+}
+.cover{
+    background-image: url('../img/shutterstock_280369721.jpg');
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu{
+    text-align: center;
+    margin-top: 70px;
+}
+.menu h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.menu .subheading{
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84;
+    font-weight: 400;
+    font-size: 28px;
+}
+.menu-content .item{
+    float: left;
+    width: 33.33%;
+}
+.menu-content img{
+    margin-top: 20px;
+    width: 80%;
+}
+.menu-content .item h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu-content .item p{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.menu-content a{
+    background-color: #c1ab84;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+}
+/* location */
+.location{ 
+    margin-top: 70px;
+}
+.location i{
+    color :#fff;
+    background-color: #c1ab84;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* start footar */
+.footar{
+    background-color: #403d38;
+    color: #fff;
+    padding-top: 30px;
+} 
+.footar-content{
+overflow: hidden;
+}
+.footar .item {
+    float: left;
+    width: 25%;
+}
+.footar .item h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.footar .item p{
+    color:#969696;
+    font-weight: 400;
+    width:85%;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.footar .item a{
+    color: #969696;
+    /* لانها  ما بتقبل توخد فمنعملها  */
+    margin-bottom: 20px;
+    display: inline-block;       
+    font-size: 15px;
+}
+.footar .item a:hover{
+    color :#fff
+}
+.footar .item a:before{
+content: '> ';
+margin-right: 10px;
+}
+.footar .item .content{
+    color: #969696;
+    font-size: 14px;
+}
+.footar .item .content li{
+    margin-bottom: 20px;
+}
+.footar .item .content li i{
+    /* لابعد الايقونة عن الحكي */
+    margin-right: 15px;
+}
+.footar .footar-second{
+    background-color: #353330;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.footar-second{
+    color:#969696;
+    font-size:14px ;
+    width: 17%;
+    margin: auto;
+}
+.footar .footar-second .icons{
+    margin-top: 30px;
+}
+.footar .footar-second .icons i{
+    background-color:  #484540; ;
+    color: #969696;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 40%;
+}
+.footar .footar-second .icons i:hover{
+ color: #fff;
+ background-color:#3b5998 ;
+}
+
+
+@media (max-width:576px) {
+
+}
